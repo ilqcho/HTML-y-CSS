@@ -30,7 +30,7 @@ a:hover {
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 640px){
     
     a {
         display: flex;
@@ -41,7 +41,7 @@ a:hover {
     }
 
     .flex__container {
-        flex-direction:column;
+        flex-wrap: wrap;
     }
 }
 
